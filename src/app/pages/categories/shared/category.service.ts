@@ -21,6 +21,7 @@ export class CategoryService {
       map(this.jsonDataToCategories)
     )
     }
+    
   getById(id: number): Observable<Category>{
       const url = `${this.apiPath}/${id}`;
   
@@ -54,6 +55,7 @@ export class CategoryService {
       map(() => null)
     )
   }
+
   private jsonDataToCategories(jsonData: any[]): Category[]{
       const categories: Category[] = [];
       jsonData.forEach(element => categories.push(element as Category));
