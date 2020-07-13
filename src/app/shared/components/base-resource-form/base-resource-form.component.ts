@@ -58,8 +58,6 @@ export abstract class BaseResourceFormComponent<T extends BaseResourceModel> imp
     else
       this.currentAction = "edit"
   }
-
-  protected abstract buildResourceForm(): void;
   
   protected loadResource() {
     if(this.currentAction == "edit"){
@@ -133,4 +131,6 @@ export abstract class BaseResourceFormComponent<T extends BaseResourceModel> imp
     else
       this.serverErrorMessages = ["Falha na comunicação com o servidor. Por Favor, teste mais tarde."]
   }
+
+  protected abstract buildResourceForm(): void;
 }
