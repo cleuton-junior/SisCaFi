@@ -1,21 +1,7 @@
-# Finansys
+# SisCaF$
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+## Descrição do projeto
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Project description
-
-System responsible for the control and registration of the user's monthly finances.
+Tem como objetivo esse proejto a craiação der um Gerenciador Financeiro Pessoal, aplicando princípios necessários construir uma aplicação sem: REPETIÇÃO DE MUITO CÓDIGO para a criação de CRUD's (criação, listagem, edição e exclusão)., orientada à objetos e completamente reaproveitável, na qual foi componentizada o FrontEnd seguido as melhores práticas para padronizar as nossas interfaces.
 
 
